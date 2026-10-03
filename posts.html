@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINK N★ISE</title>
+</head>
+<body bgcolor="black">
+
+    <div class="menu">
+       
+        <a href="index.html">HOME</a>
+        
+        <a href="posts.html">POSTS</a>
+        
+        <a href="about.html">ABOUT</a>
+        
+    </div>
+
+    <H1>POSTS</H1>
+
+    <div class="posts">
+
+        <a href="index.html">
+            <img src="download.jpg" alt="">
+            <p>hiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+        </a>
+
+    </div>
+
+
+
+</body>
+
+<style>
+    *{
+        color: white;
+    }
+
+    .menu a:link, .menu a:visited{
+    background-color: pink;
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    gap:30px ;
+}
+
+.menu a:hover, .menu a:active {
+  background-color: rgb(252, 204, 212);
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.posts a{
+    text-decoration: none;
+}
+
+.posts img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.footer{
+    font-size: 30px;
+}
+
+
+</style>
+
+ <center>
+    <h5>&copy; 2026 all rights reseved to PINK N★ISE</h5>
+</center>
+
+</html>

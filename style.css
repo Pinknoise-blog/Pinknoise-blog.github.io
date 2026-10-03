@@ -1,0 +1,60 @@
+
+ *{
+        color: white;
+    }
+
+
+.title{
+    font-size: xxx-large;
+    margin-top: 150px;
+    line-height: 0.02;
+}
+
+mark{
+    background-color: #057EFF;
+}
+
+
+
+.menu a:link, .menu a:visited{
+    background-color: pink;
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    gap:30px ;
+}
+
+.menu a:hover, .menu a:active {
+  background-color: rgb(252, 204, 212);
+}
+
+.latest{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.latest a{
+    text-decoration: none;
+}
+
+
+.rec{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.footer{
+    font-size: 30px;
+}
